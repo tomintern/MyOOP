@@ -8,9 +8,10 @@ public class Circle {
     public static float pi = (float) 3.14;
     public static float triangle = (float) 0.5;
     public static float  sum;
+    
     public Circle(){
         
-        
+        text();
     }
     public float setradius(float r ,float r1){
         this.r=r;
@@ -26,6 +27,9 @@ public class Circle {
         this.r1=t1;
         sum= triangle*(t*t1);
         return sum;
+    }
+    public void text(){
+        System.out.println("Hello World!!!");
     }
     
 }
